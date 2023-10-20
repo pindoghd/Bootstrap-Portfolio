@@ -1,0 +1,51 @@
+
+.navbar {
+    display: flex;   
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+    justify-content: space-between;
+    color: black;
+    border-color: black;
+    border-radius: 5%;
+    
+}
+
+.navbar-brand {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    padding: 6px 12px;
+    font-weight: 700;
+    margin: 0px 0px 0px 10px;
+    word-spacing: 25px;
+}
+
+.nav-item 
+{
+    color: red;
+    border-color: black;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html {
+    min-height: 200%;
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1451309760.1697818778&semt=ais);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.jumbotron {
+    color: red;
+}
+.card {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 5%;
+    
+}
