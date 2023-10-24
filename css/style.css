@@ -36,8 +36,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 html {
-    min-height: 200%;
-    background-image: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1451309760.1697818778&semt=ais);
+    background-image: url(https://mcdn.wallpapersafari.com/318/59/97/SIuKem.jpg);
+    min-height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -51,14 +51,39 @@ html {
 
 }
 
-.work {
+.container1 {
+    display: flex;
+}
+    
+
+.card1 {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5%;
+    padding: 70px;
     border: 5px solid black;
+  
     
 }
-.card {
+
+.card2 {
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 5%;
+    padding: 70px;
+    border: 5px solid black;
+  
+    
+}
+
+.card3 {
+    display: inline-flex;
+    justify-content: center;
+    margin: 5%;
+    padding: 70px;
+    border: 5px solid black;
+  
+  
     
 }
 
@@ -83,4 +108,20 @@ html {
     text-decoration: none;
     
     
+    
+}
+
+.card-img-top {
+    height: 130px;
+    width: 130px;
+    
+    border: 2px solid black;
+
+    
+}
+
+.container.my-5 {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
 }
